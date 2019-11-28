@@ -15,5 +15,6 @@ class stockMoveLine(models.Model):
 				('product_id','=', ress.product_id.id),
 				('name', '=', ress.picking_id.origin)
 				])
+				
 			ress.lot_id = data.id
 
